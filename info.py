@@ -1,4 +1,4 @@
-# Don't Remove Credit @VJ_Botz
+DD# Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -51,7 +51,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://G:G@cluster0.ikp0ivm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://G:G@cluster0.9ulpnw4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjautobot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 
@@ -96,7 +96,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', '')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '')
